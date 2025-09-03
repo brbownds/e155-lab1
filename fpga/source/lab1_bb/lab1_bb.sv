@@ -1,3 +1,9 @@
+//Broderick Bownds
+// brbownds@hmc.edu
+// 9/1/2025
+
+// This is our top module where we instantiate seven segment display
+
 module lab1_bb( input  logic reset,
 				input  logic [3:0] s,
 				output logic [2:0] led,
@@ -24,7 +30,7 @@ module lab1_bb( input  logic reset,
    
  assign led[0] = s[0] ^ s[1];
  assign led[1] = s[2] & s[3];
-
-	seven_segdis s1(s, seg);
+// Make more meaningful names for integrating different modules
+	seven_segdis sevenseg(s, seg);
   
 endmodule

@@ -1,3 +1,7 @@
+//Broderick Bownds
+// brbownds@hmc.edu
+// 9/1/2025
+
 `timescale 1ns/1ps
 
 module lab1_test();

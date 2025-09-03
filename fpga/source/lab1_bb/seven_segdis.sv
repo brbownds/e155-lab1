@@ -1,3 +1,10 @@
+// Broderick Bownds
+// brbownds@hmc.edu
+// 9/1/2025
+
+// this seven segment module is strictly combinational logic so we 
+// can use case statements
+
 module seven_segdis ( input  logic [3:0] s,
 					  output logic [6:0] seg);
 					  
